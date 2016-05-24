@@ -1,3 +1,31 @@
-h1 {
-    color:red;
+div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.red {
+    background-color: #ff4d4d;
+}
+
+.yellow {
+    background-color: #ffff4d;
+}
+
+.green {
+    background-color: #4dff4d;
+}
+
+.red:hover {
+    background-color: red;
+}
+
+.yellow:hover {
+    background-color: yellow;
+}
+
+.green:hover {
+    background-color: green;
 }
