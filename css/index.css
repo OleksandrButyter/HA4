@@ -5,19 +5,27 @@ div {
     border-radius: 100px;
     margin: 10px;
     text-align: center;
-    vertical-align: middle;
 }
 
+div:hover {
+    font-size: 50px; 
+    color: black;
+}
+
+}
 .red {
     background-color: #ff4d4d;
+    color: #ff4d4d;
 }
 
 .yellow {
     background-color: #ffff4d;
+    color: #ffff4d;
 }
 
 .green {
     background-color: #4dff4d;
+    color: #4dff4d;
 }
 
 .red:hover {
