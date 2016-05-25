@@ -65,3 +65,23 @@ li:nth-child(3) {
 li:nth-child(3) div:hover {
    background-color: brown;
 }
+
+#li2, #li4 {
+     background-color: brown;
+}
+
+#li4 + li {
+    background-color: grey; 
+}
+
+pre:first-letter {
+    font-size: 30px;
+}
+
+pre::after { 
+    content: "*******";
+}
+
+p::first-line {
+    font-family: fantasy;
+}
