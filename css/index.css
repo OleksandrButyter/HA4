@@ -1,6 +1,6 @@
 div {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid black;
     border-radius: 100px;
     margin: 10px;
@@ -12,6 +12,9 @@ div:hover {
     color: black;
 }
 
+ul li{
+    display: inline-block;
+}
 .red {
     background-color: #ff4d4d;
     color: #ff4d4d;
@@ -37,4 +40,28 @@ div:hover {
 
 .green:hover {
     background-color: green;
+}
+
+li:first-child {
+    background-color: blue;
+}
+
+li:first-child div:hover {
+   background-color: yellow;
+}
+
+li:last-child {
+    background-color: orange;
+}
+
+li:last-child div:hover {
+   background-color: red;
+}
+
+li:nth-child(3) {
+    background-color: pink;
+}
+
+li:nth-child(3) div:hover {
+   background-color: brown;
 }
