@@ -85,3 +85,7 @@ pre::after {
 p::first-line {
     font-family: fantasy;
 }
+
+pre {
+     margin-left: 50px;
+}
